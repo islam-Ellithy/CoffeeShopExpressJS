@@ -1,0 +1,40 @@
+[
+	{
+		"coffeeFlavor": "vanilla",
+		"sku": "CP001",
+		"packSize": 1,
+		"productType": "SMALL_COFFEE_POD"
+	},
+	{
+		"coffeeFlavor": "vanilla",
+		"sku": "CP003",
+		"packSize": 3,
+		"productType": "SMALL_COFFEE_POD"
+	},
+	{
+		"coffeeFlavor": "caramel",
+		"sku": "CP011",
+		"packSize": 1,
+		"productType": "SMALL_COFFEE_POD"
+	},
+
+	{
+		"coffeeFlavor": "caramel",
+		"sku": "CP013",
+		"packSize": 3,
+		"productType": "SMALL_COFFEE_POD"
+	},
+
+	{
+		"coffeeFlavor": "psl",
+		"sku": "CP021",
+		"productType": "SMALL_COFFEE_POD",
+		"packSize": 1
+	},
+	{
+		"coffeeFlavor": "psl",
+		"sku": "CP023",
+		"productType": "SMALL_COFFEE_POD",
+		"packSize": 3
+	}
+]

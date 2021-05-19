@@ -1,0 +1,50 @@
+[
+	{
+		"model": "BASE",
+		"sku": "CM001",
+		"productType": "COFFEE_MACHINE_SMALL",
+		"waterLineCompatible": false
+	},
+	{
+		"model": "PREMIUM",
+		"sku": "CM002",
+		"productType": "COFFEE_MACHINE_SMALL",
+		"waterLineCompatible": false
+	},
+	{
+		"model": "DELUXE",
+		"sku": "CM003",
+		"productType": "COFFEE_MACHINE_SMALL",
+		"waterLineCompatible": true
+	},
+	{
+		"model": "BASE",
+		"sku": "CM101",
+		"productType": "COFFEE_MACHINE_LARGE",
+		"waterLineCompatible": true
+	},
+	{
+		"model": "DELUXE",
+		"sku": "CM102",
+		"productType": "COFFEE_MACHINE_LARGE",
+		"waterLineCompatible": true
+	},
+	{
+		"model": "BASE",
+		"sku": "EM001",
+		"productType": "ESPRESSO_MACHINE",
+		"waterLineCompatible": false
+	},
+	{
+		"model": "PREMIUM",
+		"sku": "EM002",
+		"productType": "ESPRESSO_MACHINE",
+		"waterLineCompatible": false
+	},
+	{
+		"model": "DELUXE",
+		"sku": "EM003",
+		"productType": "ESPRESSO_MACHINE",
+		"waterLineCompatible": true
+	}
+]
