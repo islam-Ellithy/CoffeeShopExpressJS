@@ -55,6 +55,35 @@
 			"response": []
 		},
 		{
+			"name": "Filter All Coffee Pod",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"productType\": \"SMALL_COFFEE_POD\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/coffee-pods/filter",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"coffee-pods",
+						"filter"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Create Coffee Machine",
 			"request": {
 				"method": "POST",
@@ -83,6 +112,40 @@
 					"port": "8080",
 					"path": [
 						"coffee-machines"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Coffee  Pod",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\t\"coffeeFlavor\": \"psl\",\n\t\t\"sku\": \"CP023\",\n\t\t\"productType\": \"SMALL_COFFEE_POD\",\n\t\t\"packSize\": 3\n\t}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/coffee-pods",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"coffee-pods"
 					]
 				}
 			},
